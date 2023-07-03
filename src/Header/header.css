@@ -1,0 +1,81 @@
+nav{
+  opacity: 0.8;
+  font-family: Raleway, sans-serif;
+}
+
+.container {
+  justify-content: initial !important;
+  float: left !important;
+}
+
+.custom-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  margin-right: 5px;
+  padding: 0 10px;
+  font-size: larger;
+}
+
+input{
+  opacity: 0.8;
+}
+
+.navbar-brand{
+  margin-top: 20px;
+}
+
+.navbar{
+  opacity: 0.8 !important;
+}
+
+nav{
+  opacity: 0.8 !important;
+  font-family: Raleway, sans-serif;
+  
+}
+.nav-link {
+  font-size: 15px!important;
+}
+.transparent-input {
+  background-color: transparent!important;
+  border:0 !important;
+}
+.transparent-input::placeholder{
+  color:white!important;
+  opacity: .7!important;
+  font-size: 15px!important;
+}
+
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.nav-link {
+  font-size: 20px !important;
+}
+
+/* custom.css */
+.select-options {
+  font-size: 20px !important;
+}
+
+
+.primary-color {
+  color: rgb(211 161 136) !important;
+}
+
+.bg-transparent::placeholder {
+  color: rgba(255, 255, 255, 0.55) !important;
+  font-size: 15px !important;
+}
+.text-nav {
+  color: rgba(255, 255, 255, 0.55) !important;
+  font-size: 15px !important;
+}
+.max-width-100 {
+  max-width: 100% !important;
+}

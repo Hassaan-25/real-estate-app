@@ -1,0 +1,42 @@
+body {
+  align-items: center;
+}
+
+.imagecontainer{
+  background-image: url("../assets/home.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.homeContainer{
+  align-items: center;
+  position: relative;
+}
+
+.homeTextWrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.homeText{
+  font-size: 84px;
+  font-weight: lighter;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+}
+
+.homeTextSmall{
+  font-size: 34px;
+  font-weight: 100;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  opacity: 0.9;
+}
+
