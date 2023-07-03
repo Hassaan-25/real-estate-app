@@ -142,6 +142,7 @@ const AdPage = () => {
               <div className="advertisement-card" key={ad.id}>
                 <img className="ad-image" src={ad.image} alt={ad.name} />
                 <div className="card-body">
+                  <br />
                   <h5 className="card-title card-space">{ad.name}</h5>
                   <div className="card-location card-space">
                     <FaMapMarkerAlt /> {ad.location}
