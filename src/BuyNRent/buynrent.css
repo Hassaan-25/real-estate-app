@@ -1,0 +1,84 @@
+.screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+}
+
+.box {
+  width: 95%;
+  height: 75vh;
+  border: 1px solid #000;
+  display: flex;
+}
+
+.partition {
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  width: 40%;
+  border: 1px solid #9e9d9d !important;;
+  height: 60vh;
+  margin-top: 70px;
+  border-right: transparent;
+}
+
+.right {
+  width: 60%;
+}
+
+h3,
+p {
+  margin: 0;
+}
+
+.options {
+  margin-top: 20px;
+}
+
+.buytxt {
+  font-size: 20px;
+  font-weight: 200;
+  padding: 20px;
+  color: #9e9d9d !important;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  color: #9e9d9d !important;
+  cursor: pointer;
+  font-size: 40px;
+  font-weight: 200;
+  margin: 1rem 10rem;
+  font-family: 'Montserrat', sans-serif !important;
+  transition: all 0.3s ease;
+}
+
+.option:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.option.active {
+  font-weight: bold;
+}
+
+.partition.right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.arrow {
+  color: #9e9d9d !important;
+  transition: all 0.3s ease;
+  margin-left: 30px;
+}
+
+.option:hover .arrow {
+  transform: scaleX(1.25);
+}

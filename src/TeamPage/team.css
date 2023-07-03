@@ -1,0 +1,166 @@
+.screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.left-partition {
+  width: 30%;
+  padding: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.inputs {
+  display: flex;
+  /* gap: 10px; */
+  margin-bottom: 20px;
+}
+
+.inputs select{
+  background-color: transparent;
+  color: white;
+  width: 100%;
+  height: 40px;
+
+}
+
+option{
+  background-color: transparent;
+  color: white;
+}
+
+
+input {
+  width: 100%;
+  padding: 10px;
+}
+
+.refresh-button {
+  color: #fff;
+  border: 1px solid #9e9d9d !important;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.action-button {
+  padding: 10px 20px;
+  color: #fff;
+
+  border: none;
+  cursor: pointer;
+}
+
+.right-partition {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.people {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.person {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 250px;
+  /* background-color: #fff; */
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  overflow: hidden;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+  position: relative;
+}
+
+.person.active {
+  opacity: 1;
+  z-index: 1;
+  width: 220px;
+  height: 300px;
+}
+
+.person img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.person.active ~ .person {
+  transform: translateX(50%);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+}
+
+.teamHeading{
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-weight: 100;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+
+.teamText{
+  font-size: 20px;
+  /* margin-bottom: 10px; */
+  margin-left: 20px;
+  font-weight: 100;
+  font-family: 'Montserrat', sans-serif;
+  color: #9e9d9d !important;
+}
+
+.left-button,
+.right-button {
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(211 161 136) !important;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  color: #9e9d9d !important;
+}
+
+.details h3 {
+  font-size: 20px;
+  font-weight: 400 !important;
+  margin-bottom: 5px;
+}
+
+.details p {
+  font-size: 20px !important;
+  margin-bottom: 10px !important;
+  color: #b6b4b4 !important;
+}

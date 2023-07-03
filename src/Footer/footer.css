@@ -1,0 +1,63 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+*,
+.nav-link {
+  color: white !important;
+  font-feature-settings: "lnum" 1;
+  font-weight: 100;
+  font-family: "Raleway", sans-serif !important;
+}
+
+.nav-item {
+  font-size: 14px !important;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.address-text {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.btn-call-us {
+  text-transform: uppercase;
+  border-color: rgb(211 161 136);
+  border-radius: 0;
+  color: rgb(211 161 136) !important;
+}
+
+small {
+  font-size: 0.75rem;
+}
+
+.logo {
+  height: 3rem;
+}
+
+.footerContainer{
+  background-color: black !important;
+  max-width: 100% !important;
+  color: white !important;
+  margin: auto auto !important;
+}
+
+.wrapper{
+  margin: 100px;
+}
+
+.btn-footer {
+  border: 2px solid #fff ;
+  transition: border-color 0.3s ease;
+  background-color: transparent;
+  
+  border-color: rgb(211 161 136) !important; 
+}
+
+.btn-footer:hover {
+  border-color: transparent !important;
+}
+
