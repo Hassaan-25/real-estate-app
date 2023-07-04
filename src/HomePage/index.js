@@ -6,6 +6,8 @@ import IntroPage from "../IntroPage";
 import BuyRentPage from "../BuyNRent";
 import TeamPage from "../TeamPage";
 import AdPage from "../AdPage";
+import ReviewPage from "../ReviewPage";
+import GridPage from "../GridPgae";
 
 const Home = () => {
   return (
@@ -23,6 +25,8 @@ const Home = () => {
       <BuyRentPage />
       <TeamPage />
       <AdPage />
+      <ReviewPage />
+      <GridPage />
       <Footer />
     </>
   );

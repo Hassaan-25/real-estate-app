@@ -50,9 +50,11 @@ const Header = () => {
                 </ul>
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a className="nav-link" href="#a">
-                      EN
-                    </a>
+                    <select className="form-select bg-dark border-0 text-nav">
+                      <option selected>USD</option>
+                      <option selected>AED</option>
+                      <option selected>EN</option>
+                    </select>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="#a">

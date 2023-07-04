@@ -57,7 +57,9 @@ p {
   margin: 1rem 10rem;
   font-family: 'Montserrat', sans-serif !important;
   transition: all 0.3s ease;
+  position: relative;
 }
+
 
 .option:not(:last-child) {
   margin-bottom: 10px;
@@ -73,12 +75,17 @@ p {
   object-fit: cover;
 }
 
+
+
 .arrow {
   color: #9e9d9d !important;
-  transition: all 0.3s ease;
-  margin-left: 30px;
+  transition: transform 0.3s ease !important;
+  transform-origin: right center;
+  width: 50%;
+  padding: 20px;
 }
 
 .option:hover .arrow {
   transform: scaleX(1.25);
+  width: 100px;
 }

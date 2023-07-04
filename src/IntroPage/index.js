@@ -13,11 +13,11 @@ const introPage = () => {
           <h3>Real Estate Experts</h3>
           <p>
             We understand the fact that modern people strive for maximum
-            comfort. <br /> <br /> A harmonious environment, communication with
-            professionals, accurate and timely information, commitment, reliable
-            and convenient technological solutions that save the resources that
-            <br /> <br /> A harmonious environment, communication with are
-            important to them. We have implemented all these in AX CAPITAL
+            comfort. <br />
+            A harmonious environment, communication with professionals, accurate
+            and timely information, commitment, reliable and convenient
+            technological solutions that save the resources that are important
+            to them. <br /> We have implemented all these in AX CAPITAL
           </p>
 
           <button

@@ -1,0 +1,129 @@
+.grid-screen-container {
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 60px;
+}
+
+.gridcolumn {
+  background-color: #0000;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.gridheading {
+  font-size: 34px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridtext {
+  font-size: 18px;
+  color: #555555;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin: 5px;
+}
+
+.text-container-grid{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-screen-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.detail-wrapper {
+  width: 90%;
+  margin: 30px;
+}
+
+.detail-container {
+  padding: 20px;
+  height: 500px;
+  overflow: hidden;
+  transition: height 0.3s ease;
+  border: 1px solid rgb(211 161 136) !important;;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.detail-container.expanded {
+  border: none;
+}
+
+.detail-container.expanded {
+  height: max-content;
+  border: 1px solid #ccc;
+  color: white;
+  display: block;
+  overflow: hidden;
+}
+
+.button-container {
+  display: block;
+  position: relative;
+  left:20px;
+  top: -20px;
+  background-color: #000 !important;
+  width: max-content;
+}
+
+.read-more-button,
+.hide-button {
+  padding: 0px 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: rgb(211 161 136) !important;
+}
+
+.hide-button {
+  margin-left: 10px;
+}
+
+.detail-heading{
+  font-weight: 200;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px;
+}
+
+.detail-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+
+.fade-text {
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: 5px;
+  background: linear-gradient(to top, transparent, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.fade-text.expanded {
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: 5px;
+  background: none;
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: #fff;
+}
