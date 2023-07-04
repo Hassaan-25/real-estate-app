@@ -6,6 +6,15 @@
   background-color: #000;
 }
 
+.screen-container::before, .border-container::after{
+  
+    background-image: linear-gradient(90deg,transparent,#d3a188,transparent);
+    content: "";
+    height: 1px;
+    position: absolute;
+    width: 100%;
+}
+
 .border-container {
   position: relative;
   width: 100%;

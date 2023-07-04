@@ -25,13 +25,13 @@ const BuyRentPage = () => {
               className={`option ${isBuyHovered ? "active" : ""}`}
               onMouseEnter={handleBuyHover}
             >
-              BUY <span className="arrow"> -----&#10148;</span>
+              BUY <span className="arrow"> &#8594;</span>
             </div>
             <div
               className={`option ${!isBuyHovered ? "active" : ""}`}
               onMouseEnter={handleSellHover}
             >
-              RENT <span className="arrow "> -----&#10148;</span>
+              RENT <span className="arrow "> &#8594;</span>
             </div>
             <p className="buytxt">
               With a comprehensive portfolio of properties and countless offers,

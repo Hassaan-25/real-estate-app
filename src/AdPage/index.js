@@ -86,7 +86,56 @@ const AdPage = () => {
       image: ad3,
       category: "TownHouses",
     },
-    // Add more advertisements with different categories
+    {
+      id: 8,
+      name: "Advertisement 5",
+      location: "Location 5",
+      price: "$500,000",
+      bedrooms: 2,
+      washrooms: 4,
+      image: ad3,
+      category: "Villas",
+    },
+    {
+      id: 9,
+      name: "Advertisement 3",
+      location: "Location 3",
+      price: "$300,000",
+      bedrooms: 2,
+      washrooms: 4,
+      image: ad2,
+      category: "Villas",
+    },
+    {
+      id: 10,
+      name: "Advertisement 3",
+      location: "Location 3",
+      price: "$300,000",
+      bedrooms: 2,
+      washrooms: 4,
+      image: ad1,
+      category: "Villas",
+    },
+    {
+      id: 11,
+      name: "Advertisement 3",
+      location: "Location 3",
+      price: "$300,000",
+      bedrooms: 2,
+      washrooms: 4,
+      image: ad2,
+      category: "Apartments",
+    },
+    {
+      id: 12,
+      name: "Advertisement 3",
+      location: "Location 3",
+      price: "$300,000",
+      bedrooms: 2,
+      washrooms: 4,
+      image: ad1,
+      category: "Apartments",
+    },
   ];
 
   const handleCategoryClick = (category) => {
@@ -100,7 +149,6 @@ const AdPage = () => {
   return (
     <div className="screen-container">
       <div className="border-container">
-        <div className="border-gradient" />
         <div className="content-container">
           <h2 className="heading">Luxury Properties</h2>
           <div className="textContainer">
