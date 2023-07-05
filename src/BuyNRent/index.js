@@ -15,32 +15,40 @@ const BuyRentPage = () => {
   };
 
   return (
-    <div className="screen">
-      <div className="box">
-        <div className="partition left">
-          {/* <h3>Heading</h3>
-          <p>Some text goes here...</p> */}
-          <div className="options">
-            <div
-              className={`option ${isBuyHovered ? "active" : ""}`}
-              onMouseEnter={handleBuyHover}
-            >
-              BUY <span className="arrow"> &#8594;</span>
-            </div>
-            <div
-              className={`option ${!isBuyHovered ? "active" : ""}`}
-              onMouseEnter={handleSellHover}
-            >
-              RENT <span className="arrow "> &#8594;</span>
-            </div>
-            <p className="buytxt">
-              With a comprehensive portfolio of properties and countless offers,
-              we cover all your real estate needs.
-            </p>
-          </div>
+    <div className="bg-dark container">
+      <div className="row buy-n-rent-row">
+        <div className="col-xl-6 order-xl-2 py-5 px-0 buy-n-rent-img">
+          <img
+            src={isBuyHovered ? buyImage : sellImage}
+            alt="Partition 2"
+            width={"100%"}
+          />
         </div>
-        <div className="partition right">
-          <img src={isBuyHovered ? buyImage : sellImage} alt="Partition 2" />
+        <div className="col-xl-6 order-xl-1 d-flex align-items-center px-0">
+          <div className="buy-n-rent-content p-5">
+            <div className="options">
+              <div
+                className={`option ${isBuyHovered ? "active" : ""}`}
+                onMouseEnter={handleBuyHover}
+              >
+                <h2>
+                  BUY <span className="arrow"></span>
+                </h2>
+              </div>
+              <div
+                className={`option ${!isBuyHovered ? "active" : ""}`}
+                onMouseEnter={handleSellHover}
+              >
+                <h2>
+                  RENT <span className="arrow"></span>
+                </h2>
+              </div>
+              <p className="buytxt">
+                With a comprehensive portfolio of properties and countless
+                offers, we cover all your real estate needs.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

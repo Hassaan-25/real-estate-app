@@ -1,42 +1,12 @@
-.grid-screen-container {
-  background-color: black;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
-  padding: 60px;
-}
-
-.gridcolumn {
-  background-color: #0000;
-  padding: 20px;
-  border-radius: 5px;
-}
-
-.gridheading {
-  font-size: 34px;
-  font-weight: 300;
-  margin-bottom: 10px;
-  font-family: 'Montserrat', sans-serif;
-  margin: 10px 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.gridtext {
-  font-size: 18px;
-  color: #555555;
+.text-container-grid a {
+  width: 100%;
+  text-align: center !important;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  margin: 5px;
 }
 
-.text-container-grid{
-  display: flex;
+.text-container-grid {
+  display: flex !important;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .detail-screen-container {
@@ -56,8 +26,8 @@
   height: 500px;
   overflow: hidden;
   transition: height 0.3s ease;
-  border: 1px solid rgb(211 161 136) !important;;
-  font-family: 'Montserrat', sans-serif;
+  border: 1px solid rgb(211 161 136) !important;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
 }
 
@@ -76,7 +46,7 @@
 .button-container {
   display: block;
   position: relative;
-  left:20px;
+  left: 20px;
   top: -20px;
   background-color: #000 !important;
   width: max-content;
@@ -95,33 +65,31 @@
   margin-left: 10px;
 }
 
-.detail-heading{
+.detail-heading {
   font-weight: 200;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 10px;
 }
 
-.detail-text{
-  font-family: 'Montserrat', sans-serif;
+.detail-text {
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
 }
-
 
 .fade-text {
   font-size: 18px;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 5px;
   background: linear-gradient(to top, transparent, #fff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-
 .fade-text.expanded {
   font-size: 18px;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 5px;
   background: none;
   -webkit-background-clip: unset;

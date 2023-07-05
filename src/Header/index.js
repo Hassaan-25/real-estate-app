@@ -8,12 +8,23 @@ const Header = () => {
       <header>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
           <div className="container justify-content-start m-0 max-width-100">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
             <a className="navbar-brand" href="#a">
               <img src={logo2} alt="Logo" width="113" height="33" />
             </a>
             <div className="w-100">
               <div
-                className="navbar-collapse justify-content-between"
+                className="collapse navbar-collapse justify-content-between"
                 id="navbarNav"
               >
                 <ul className="navbar-nav">

@@ -1,16 +1,15 @@
-nav{
+nav {
   opacity: 0.8;
   font-family: Raleway, sans-serif;
-}
-
-.container {
-  justify-content: initial !important;
-  float: left !important;
 }
 
 .custom-container {
   display: flex;
   justify-content: space-between;
+}
+
+body {
+  background-color: rgb(17, 16, 16) !important;
 }
 
 .nav-item {
@@ -19,36 +18,34 @@ nav{
   font-size: larger;
 }
 
-input{
+input {
   opacity: 0.8;
 }
 
-.navbar-brand{
+.navbar-brand {
   margin-top: 20px;
 }
 
-.navbar{
+.navbar {
   opacity: 0.8 !important;
 }
 
-nav{
+nav {
   opacity: 0.8 !important;
   font-family: Raleway, sans-serif;
-  
 }
 .nav-link {
-  font-size: 15px!important;
+  font-size: 15px !important;
 }
 .transparent-input {
-  background-color: transparent!important;
-  border:0 !important;
+  background-color: transparent !important;
+  border: 0 !important;
 }
-.transparent-input::placeholder{
-  color:white!important;
-  opacity: .7!important;
-  font-size: 15px!important;
+.transparent-input::placeholder {
+  color: white !important;
+  opacity: 0.7 !important;
+  font-size: 15px !important;
 }
-
 
 body {
   font-family: "Raleway", sans-serif;
@@ -58,7 +55,6 @@ body {
 .select-options {
   font-size: 20px !important;
 }
-
 
 .primary-color {
   color: rgb(211 161 136) !important;
