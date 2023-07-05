@@ -1,43 +1,12 @@
 /* advertisement.css */
 
-.screen-container {
-  display: flex;
-  height: 110vh;
-  background-color: #000;
-}
-
-.screen-container::before, .border-container::after{
-  
-    background-image: linear-gradient(90deg,transparent,#d3a188,transparent);
-    content: "";
-    height: 1px;
-    position: absolute;
-    width: 100%;
-}
-
-.border-container {
-  position: relative;
-  width: 100%;
-  padding: 20px;
-  margin: 20px;
-  height: 120vh;
-  border-left: transparent !important;
-  border-right: transparent !important;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.border-gradient {
+.ad-container::before,
+.border-container::after {
+  background-image: linear-gradient(90deg, transparent, #d3a188, transparent);
+  content: "";
+  height: 1px;
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border: 2px solid transparent;
-  border-image: linear-gradient(to right, #000, rgb(211, 161, 136), #000);
-  border-image-slice: 1;
-  border-left: transparent !important;
-  border-right: transparent !important;
+  width: 100%;
 }
 
 .content-container {
@@ -53,8 +22,7 @@
   font-size: 34px;
   font-weight: 400;
   margin-bottom: 10px;
-  font-family: 'Montserrat', sans-serif;
-  
+  font-family: "Montserrat", sans-serif;
 }
 
 .textContainer {
@@ -68,8 +36,6 @@
   margin: 15px !important;
   color: #9e9d9d !important;
 }
-
-
 
 .advertisement-container {
   display: flex;
@@ -88,7 +54,7 @@
   /* padding: 10px; */
 }
 
-.card-space{
+.card-space {
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -106,35 +72,35 @@
   text-align: center;
 }
 
-.ad-icons{
+.ad-icons {
   color: rgb(211, 161, 136) !important;
 }
 
-.card-title{
+.card-title {
   font-size: 20px;
   font-weight: bold;
 }
 
-.card-location{
+.card-location {
   font-size: 15px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-.card-text{
+.card-text {
   font-size: 15px;
   margin-bottom: 10px;
   text-align: left;
 }
 
-.card-body{
+.card-body {
   border: 0.5px solid #868686;
   border-top: transparent;
   padding: 0px;
   border-bottom: transparent;
 }
 
-.card-price{
+.card-price {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
@@ -142,6 +108,5 @@
 }
 
 .textContainer p.selected {
-  text-decoration: underline  rgb(211, 161, 136) !important;;
+  text-decoration: underline rgb(211, 161, 136) !important;
 }
-

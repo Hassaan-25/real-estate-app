@@ -9,93 +9,52 @@ const GridPage = () => {
   };
   return (
     <>
-      <div className="grid-screen-container">
-        <div className="gridcolumn">
-          <h2 className="gridheading">Trending Areas</h2>
-          <div className="text-container-grid">
-            <a href="#a" className="gridtext">
-              Properties for sale in Dubai Marina
-            </a>
-            <a href="#a" className="gridtext">
-              Properties for sale in Dubai Hills
-            </a>
-            <a href="#a" className="gridtext">
-              Properties for sale in Business Bay
-            </a>
-            <a href="#a" className="gridtext">
-              Properties for sale in Palm Jumeirah
-            </a>
-            <a href="#a" className="gridtext">
-              Properties for sale in Dubai Marina
-            </a>
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-3">
+            <h2 className="text-center">Trending Areas</h2>
+            <div className="text-container-grid">
+              <a href="#a">Properties for sale in Dubai Marina</a>
+              <a href="#a">Properties for sale in Dubai Hills</a>
+              <a href="#a">Properties for sale in Business Bay</a>
+              <a href="#a">Properties for sale in Palm Jumeirah</a>
+              <a href="#a">Properties for sale in Dubai Marina</a>
+            </div>
           </div>
-        </div>{" "}
-        <div className="gridcolumn">
-          <h2 className="gridheading">Popular Searches</h2>
-          <div className="text-container-grid">
-            <a href="#a" className="gridtext">
-              Properties for sale in Dubai
-            </a>
-            <a href="#a" className="gridtext">
-              Apartments for sale in Dubai Marina
-            </a>
-            <a href="#a" className="gridtext">
-              Commerical Properties in Dubai
-            </a>
-            <a href="#a" className="gridtext">
-              Duplexes for sale in Dubai
-            </a>
-            <a href="#a" className="gridtext">
-              Apartment Hotels in Dubai Marina
-            </a>
-            <a href="#a" className="gridtext">
-              Townhouses for sale in Dubai
-            </a>
-            <a href="#a" className="gridtext">
-              Plots for sale in Dubai
-            </a>
+
+          <div className="col-lg-3">
+            <h2 className="text-center">Popular Searches</h2>
+            <div className="text-container-grid">
+              <a href="#a">Properties for sale in Dubai</a>
+              <a href="#a">Apartments for sale in Dubai Marina</a>
+              <a href="#a">Commerical Properties in Dubai</a>
+              <a href="#a">Duplexes for sale in Dubai</a>
+              <a href="#a">Apartment Hotels in Dubai Marina</a>
+              <a href="#a">Townhouses for sale in Dubai</a>
+              <a href="#a">Plots for sale in Dubai</a>
+            </div>
           </div>
-        </div>{" "}
-        <div className="gridcolumn">
-          <h2 className="gridheading">LifeStyle</h2>
-          <div className="text-container-grid">
-            <a href="#a" className="gridtext">
-              Downtown Living
-            </a>
-            <a href="#a" className="gridtext">
-              Golf Club Living
-            </a>
-            <a href="#a" className="gridtext">
-              Marina Living
-            </a>
-            <a href="#a" className="gridtext">
-              Beachfront Property
-            </a>
-            <a href="#a" className="gridtext">
-              Luxury PentHouse
-            </a>
+          <div className="col-lg-3">
+            <h2 className="text-center">LifeStyle</h2>
+            <div className="text-container-grid">
+              <a href="#a">Downtown Living</a>
+              <a href="#a">Golf Club Living</a>
+              <a href="#a">Marina Living</a>
+              <a href="#a">Beachfront Property</a>
+              <a href="#a">Luxury PentHouse</a>
+            </div>
           </div>
-        </div>{" "}
-        <div className="gridcolumn">
-          <h2 className="gridheading">Off-Plan Projects</h2>
-          <div className="text-container-grid">
-            <a href="#a" className="gridtext">
-              Sunridge At Rashid Yachts & Marina
-            </a>
-            <a href="#a" className="gridtext">
-              Rivana Villas
-            </a>
-            <a href="#a" className="gridtext">
-              Arbor View
-            </a>
-            <a href="#a" className="gridtext">
-              Bayview by Address Resorts
-            </a>
-            <a href="#a" className="gridtext">
-              Casa Canal
-            </a>
+          <div className="col-lg-3">
+            <h2 className="text-center">Off-Plan Projects</h2>
+            <div className="text-container-grid">
+              <a href="#a">Sunridge At Rashid Yachts & Marina</a>
+              <a href="#a">Rivana Villas</a>
+              <a href="#a">Arbor View</a>
+              <a href="#a">Bayview by Address Resorts</a>
+              <a href="#a">Casa Canal</a>
+            </div>
           </div>
-        </div>{" "}
+        </div>
       </div>
       <div className="detail-screen-container">
         <div className="detail-wrapper">

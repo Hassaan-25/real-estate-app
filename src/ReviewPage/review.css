@@ -1,16 +1,15 @@
 :root {
-  --bs-dark-rgb: 0,0,0 !important;
+  --bs-dark-rgb: 17, 16, 16 !important;
 }
 
-
 .review-body {
-  min-height:188px;
+  min-height: 188px;
   max-height: 188px;
 }
 
 .card {
   border: 1px solid white !important;
-  border-radius: 0px!important;
+  border-radius: 0px !important;
 }
 
 .card-footer {
