@@ -19,7 +19,7 @@ const Header = () => {
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <a className="navbar-brand" href="#a">
+            <a className="navbar-brand" href="/home">
               <img src={logo2} alt="Logo" width="113" height="33" />
             </a>
             <div className="w-100">
