@@ -21,7 +21,6 @@ p {
 
 .inputs {
   display: flex;
-  /* gap: 10px; */
   margin-bottom: 20px;
 }
 
@@ -122,7 +121,6 @@ input {
 
 .teamText {
   font-size: 20px;
-  /* margin-bottom: 10px; */
   margin-left: 20px;
   font-weight: 100;
   font-family: "Montserrat", sans-serif;
