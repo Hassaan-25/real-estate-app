@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import "./advertisement.css";
-import ad1 from "../../assets/ad1.jpg";
-import ad2 from "../../assets/ad2.jpg";
-import ad3 from "../../assets/ad3.jpg";
+import { advertisements } from "./static";
 import {
   FaMapMarkerAlt,
   FaBed,
@@ -14,129 +12,6 @@ import {
 
 const AdPage = () => {
   const [selectedCategory, setSelectedCategory] = useState("PentHouse");
-
-  const advertisements = [
-    {
-      id: 1,
-      name: "Advertisement 1",
-      location: "Location 1",
-      price: "$100,000",
-      bedrooms: 2,
-      washrooms: 4,
-      image: ad1,
-      category: "PentHouse",
-    },
-    {
-      id: 2,
-      name: "Advertisement 2",
-      location: "Location 2",
-      price: "$200,000",
-      bedrooms: 2,
-      washrooms: 4,
-      image: ad2,
-      category: "Apartments",
-    },
-    {
-      id: 3,
-      name: "Advertisement 3",
-      location: "Location 3",
-      price: "$300,000",
-      bedrooms: 2,
-      washrooms: 4,
-      image: ad3,
-      category: "TownHouses",
-    },
-    {
-      id: 4,
-      name: "Advertisement 4",
-      location: "Location 4",
-      price: "$400,000",
-      bedrooms: 2,
-      washrooms: 4,
-      image: ad2,
-      category: "PentHouse",
-    },
-    {
-      id: 5,
-      name: "Advertisement 5",
-      location: "Location 5",
-      price: "$500,000",
-      bedrooms: 2,
-      washrooms: 4,
-      image: ad3,
-      category: "PentHouse",
-    },
-    {
-      id: 6,
-      name: "Advertisement 3",
-      location: "Location 3",
-      price: "$300,000",
-      bedrooms: 2,
-      washrooms: 4,
-      image: ad3,
-      category: "TownHouses",
-    },
-    {
-      id: 7,
-      name: "Advertisement 3",
-      location: "Location 3",
-      price: "$300,000",
-      bedrooms: 2,
-      washrooms: 4,
-      image: ad3,
-      category: "TownHouses",
-    },
-    {
-      id: 8,
-      name: "Advertisement 5",
-      location: "Location 5",
-      price: "$500,000",
-      bedrooms: 2,
-      washrooms: 4,
-      image: ad3,
-      category: "Villas",
-    },
-    {
-      id: 9,
-      name: "Advertisement 3",
-      location: "Location 3",
-      price: "$300,000",
-      bedrooms: 2,
-      washrooms: 4,
-      image: ad2,
-      category: "Villas",
-    },
-    {
-      id: 10,
-      name: "Advertisement 3",
-      location: "Location 3",
-      price: "$300,000",
-      bedrooms: 2,
-      washrooms: 4,
-      image: ad1,
-      category: "Villas",
-    },
-    {
-      id: 11,
-      name: "Advertisement 3",
-      location: "Location 3",
-      price: "$300,000",
-      bedrooms: 2,
-      washrooms: 4,
-      image: ad2,
-      category: "Apartments",
-    },
-    {
-      id: 12,
-      name: "Advertisement 3",
-      location: "Location 3",
-      price: "$300,000",
-      bedrooms: 2,
-      washrooms: 4,
-      image: ad1,
-      category: "Apartments",
-    },
-  ];
 
   const handleCategoryClick = (category) => {
     setSelectedCategory(category);
