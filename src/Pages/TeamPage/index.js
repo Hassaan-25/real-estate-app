@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./team.css";
-import image1 from "../assets/a.jpg";
-import image2 from "../assets/b.jpg";
-import image3 from "../assets/c.jpg";
-import image4 from "../assets/d.jpg";
+import image1 from "../../assets/a.jpg";
+import image2 from "../../assets/b.jpg";
+import image3 from "../../assets/c.jpg";
+import image4 from "../../assets/d.jpg";
 import { FaSyncAlt } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, EffectCoverflow } from "swiper/modules";

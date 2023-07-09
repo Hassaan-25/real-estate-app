@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import "./advertisement.css";
-import ad1 from "../assets/ad1.jpg";
-import ad2 from "../assets/ad2.jpg";
-import ad3 from "../assets/ad3.jpg";
+import ad1 from "../../assets/ad1.jpg";
+import ad2 from "../../assets/ad2.jpg";
+import ad3 from "../../assets/ad3.jpg";
 import {
   FaMapMarkerAlt,
   FaBed,
   FaHotTub,
   FaEnvelope,
   FaPhone,
-  FaWhatsapp
+  FaWhatsapp,
 } from "react-icons/fa";
 
 const AdPage = () => {
@@ -24,7 +24,7 @@ const AdPage = () => {
       bedrooms: 2,
       washrooms: 4,
       image: ad1,
-      category: "PentHouse"
+      category: "PentHouse",
     },
     {
       id: 2,
@@ -34,7 +34,7 @@ const AdPage = () => {
       bedrooms: 2,
       washrooms: 4,
       image: ad2,
-      category: "Apartments"
+      category: "Apartments",
     },
     {
       id: 3,
@@ -44,7 +44,7 @@ const AdPage = () => {
       bedrooms: 2,
       washrooms: 4,
       image: ad3,
-      category: "TownHouses"
+      category: "TownHouses",
     },
     {
       id: 4,
@@ -54,7 +54,7 @@ const AdPage = () => {
       bedrooms: 2,
       washrooms: 4,
       image: ad2,
-      category: "PentHouse"
+      category: "PentHouse",
     },
     {
       id: 5,
@@ -64,7 +64,7 @@ const AdPage = () => {
       bedrooms: 2,
       washrooms: 4,
       image: ad3,
-      category: "PentHouse"
+      category: "PentHouse",
     },
     {
       id: 6,
@@ -74,7 +74,7 @@ const AdPage = () => {
       bedrooms: 2,
       washrooms: 4,
       image: ad3,
-      category: "TownHouses"
+      category: "TownHouses",
     },
     {
       id: 7,
@@ -84,7 +84,7 @@ const AdPage = () => {
       bedrooms: 2,
       washrooms: 4,
       image: ad3,
-      category: "TownHouses"
+      category: "TownHouses",
     },
     {
       id: 8,
@@ -94,7 +94,7 @@ const AdPage = () => {
       bedrooms: 2,
       washrooms: 4,
       image: ad3,
-      category: "Villas"
+      category: "Villas",
     },
     {
       id: 9,
@@ -104,7 +104,7 @@ const AdPage = () => {
       bedrooms: 2,
       washrooms: 4,
       image: ad2,
-      category: "Villas"
+      category: "Villas",
     },
     {
       id: 10,
@@ -114,7 +114,7 @@ const AdPage = () => {
       bedrooms: 2,
       washrooms: 4,
       image: ad1,
-      category: "Villas"
+      category: "Villas",
     },
     {
       id: 11,
@@ -124,7 +124,7 @@ const AdPage = () => {
       bedrooms: 2,
       washrooms: 4,
       image: ad2,
-      category: "Apartments"
+      category: "Apartments",
     },
     {
       id: 12,
@@ -134,8 +134,8 @@ const AdPage = () => {
       bedrooms: 2,
       washrooms: 4,
       image: ad1,
-      category: "Apartments"
-    }
+      category: "Apartments",
+    },
   ];
 
   const handleCategoryClick = (category) => {
