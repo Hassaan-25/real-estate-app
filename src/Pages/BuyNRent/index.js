@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./buynrent.css";
-import buyImage from "../assets/buy-sell_buy.webp";
-import sellImage from "../assets/buy-sell_rent.webp";
+import buyImage from "../../assets/buy-sell_buy.webp";
+import sellImage from "../../assets/buy-sell_rent.webp";
 
 const BuyRentPage = () => {
   const [isBuyHovered, setIsBuyHovered] = useState(true);

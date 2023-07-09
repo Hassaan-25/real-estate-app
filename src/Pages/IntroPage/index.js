@@ -1,6 +1,6 @@
 import React from "react";
 import "./intro.css";
-import image from "../assets/real-estate-experts.webp";
+import image from "../../assets/real-estate-experts.webp";
 
 const introPage = () => {
   return (
