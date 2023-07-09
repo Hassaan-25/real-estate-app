@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <>
       <header>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top nav-header">
           <div className="container justify-content-start m-0 max-width-100">
             <button
               class="navbar-toggler"
@@ -99,7 +99,7 @@ const Header = () => {
                           <path
                             d="M20.5043 7.35613C17.5126 2.49984 11.4044 1.05608 6.66747 4.07485C2.05518 7.09362 0.559298 13.6562 3.55105 18.5125L3.80037 18.9062L2.80311 22.8437L6.54281 21.7937L6.91678 22.0562C8.53731 22.975 10.2825 23.5 12.0277 23.5C13.8975 23.5 15.7674 22.975 17.3879 21.925C22.0002 18.775 23.3714 12.3437 20.5043 7.35613Z"
                             stroke="url(#paint2_linear_45_5852)"
-                            stroke-width="1.2"
+                            stroke-="1.2"
                           ></path>
                         </g>
                         <defs>
